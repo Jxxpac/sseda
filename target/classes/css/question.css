@@ -1,0 +1,15 @@
+.notewrap2{
+	display: table;
+	border-collapse : collapse;
+	border-spacing: 2px;
+	border-color: black;
+	width:60%;
+	height:600px;
+	border:1px solid black;
+	margin:8px;
+	padding:8px;
+	transform:translate(36%);
+}
+#content{
+	height:60%;
+}

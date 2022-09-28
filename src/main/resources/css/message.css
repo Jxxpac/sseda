@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.notediv{
+  width:100%;
+  height: 70vh;
+  margin:0px auto;
+  padding:0px;
+}
+.notetable{
+  width:85%;
+  border-collapse:collapse;
+}
+.notetable thead tr th,
+.notetable tbody tr td{
+  border:1px solid #eee;
+  text-align:center;
+}
+
+.notetable thead{
+  color:black;
+  height: 5%;
+  background-color: Seashell;
+}
+.notecheckbox {
+	width: 2%;
+}
+
+.notename {
+	width: 6%;
+}
+
+.notewrap1 {
+	width: 25%;
+	height: 419.88px;
+	float:left;
+}
+
+.notewrap2 {
+	width: 75%;
+	float: right;
+}
+
+.noteul {
+	list-style: none;
+	position: relative;
+	top: 25%;
+}
+.noteul li {
+	padding-right: 5px;
+}
+.sendnote {
+	padding-bottom: 10px;
+}
+

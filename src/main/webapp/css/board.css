@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* 보드 리스트 */
+#boardlist {
+  border-collapse: collapse;
+  text-align: center;
+  line-height: 2;
+  width:94%;
+}
+
+#boardlist th{
+  padding: 10px;
+  font-weight: bold;
+  color: #369;
+  border-bottom: 3px solid #036;
+}
+
+#boardlist tr:hover,#boardlist tr:hover {
+  background: Thistle;
+}
+#boardlist td {
+  width: 350px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#boardlist a:link {
+  color: black;
+  text-decoration: none;
+}
+a.button {
+  display: block;
+  position: absolute;
+  float: left;
+  width: 90px;
+  height: 45px;
+  padding: 0;
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+
+.btnPurple {
+  background: #A74982;
+}
+
+
+/* 3D */
+.btnPurple.btnPush {
+  box-shadow: 0px 5px 0px 0px #6D184B;
+}
+
+.btnPush:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.btnPurple.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #6D184B;
+}
+/* 보드디테일*/
+#detail{
+	display: table;
+	border-collapse : collapse;
+	border-spacing: 2px;
+	border-color: black;
+	width:60%;
+	height:600px;
+	border:1px solid black;
+	margin:8px;
+	padding:8px;
+	transform:translate(36%);
+}
+/* 하트 스타일*/
+#no{
+	display:inline;
+	cursor:pointer;
+}
+#yes{
+	display:none;
+	cursor:pointer;
+}
+#reply tr{
+	height:50px;
+	width:100%;
+}
+#reply input[type=text]{
+	width:95%;
+	padding:12px;
+	margin:15px;
+	border-radius: 10px;
+	display:block;
+	height:30px;
+}
+#replyup{
+	display:none;
+}
+#replyup tr{
+	width:100%;
+}
+#replyup input[type=text]{
+	width:95%;
+	padding:12px;
+	margin:15px;
+	border-radius: 10px;
+	display:block;
+	height:30px;
+}
+#replyup input[type=submit]{
+	float:right;
+}
+.pagination {
+  display: inline-block;
+}
+/*페이지분할*/
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}

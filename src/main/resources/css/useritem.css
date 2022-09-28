@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.item-wrap {
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	background-color: lightgrey;
+}
+.item-menu {
+	width: 25%;
+	height: 600px;
+	float: left;
+	
+}
+.item-list {
+	width: 75%;
+	height: 600px;
+	float: right;
+	
+}

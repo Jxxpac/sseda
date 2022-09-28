@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+html {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+
+.usercontent {
+	width: 100%;
+	height: 650px;
+	background-color: white;
+	position:relative;
+	top: 40%;
+}
+
+.columncontent {
+	width: 100%;
+	position: relative;
+	top: 2%;
+	left: 0%;
+	height: 650px;
+	
+}
+
+.usercheck {
+	display: block;
+	position: absolute;
+	top: 41%;
+	left: 60%;
+	translate: transform(-50%, -50%);
+}
+
+.usercheck-password {
+	position: absolute;
+	top: 43%;
+	left: 43%;
+}
+
+.password {
+	width: 300px;
+	height: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid black;
+}
+
+.usercontent input[type=submit] {
+	display: block;
+    position: absolute;
+    float: left;
+    width: 120px;
+    padding: 0;
+    margin: 10px 20px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.2s;
+    background: #A74982;
+    box-shadow: 0px 5px 0px 0px #6D184B;
+}
+
+.usercontent input[type=submit]:hover {
+	margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 0px 0px #6D184B
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:10px;
+  border-collapse: collapse;
+  position: relative;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+  top: 10%;
+}
+ 
+
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:black;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+td.text-left, td.text-right {
+  text-align: left;
+}
+
+.text-left {
+	width:19%;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+.thumb {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1),
+    0 12px 24px 0 rgba(0, 0, 0, 0.24);
+}
+.thumb-wrapper {
+  top: 5%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.chgrade-button, .chamount-button {
+	float: right;
+}
+
+.chuserinfo-button {
+	display: inline;
+    position: absolute;
+    left: -270%;
+    top: 103%;
+}
+
+
+
+.secessionuser-button {
+	top: 103%;
+    display: inline;
+    left: -172%;
+    position: absolute;
+}
+
+

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+/*검색폼*/
+
+.memwrap {
+    border: 1px solid gray;
+    width: 550px;
+    height: 260px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.gradewrap {
+   display: inline-flex;
+}
+
+
+table {
+ border: 1px solid black;
+ border-collapse: collapse;
+ width:85%
+}
+
+th,td {
+	padding:8px;
+	text-align:center;
+	border-bottom:1px solid #ddd;
+}
+
+
+
+/*회원 정보수정 모달*/
+
+.editmain {
+  display: flex;
+}
+
+/*보드 옵션*/
+
+.boardwrap {
+   border: 1px solid gray;
+   width: 550px;
+   height: 100px;
+   border-radius: 10px;
+   margin: 20px;
+   padding: 30px;
+}

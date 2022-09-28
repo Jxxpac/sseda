@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.main {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+	left: 50%;
+	position: fixed;
+	background-color: lightgrey;
+}
+
+.logo {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: 'Raleway', Arial, sans-serif;
+}	
+
+#login {
+    width: 100%;
+    background-color: black;
+    border-color: transparent;
+    color: white;
+}
+
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 300px;
+    height: 40px;
+}
+
+#alert {
+    border-color: transparent;
+}
+.clock {
+	text-align: center; 
+	position: fixed;
+	transform: translate(890px, 200px);
+}

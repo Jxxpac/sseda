@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+html {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+/*** Table Styles **/
+
+.changeuser-table {
+  background: white;
+  border-radius:10px;
+  border-collapse: collapse;
+  position: relative;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+  top: 10%;
+}
+ 
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom: 1px solid #C1C3D1;
+  color:black;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+td.text-left, td.text-right {
+  text-align: left;
+}
+
+.text-left {
+	width:19%;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+.thumb {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1),
+    0 12px 24px 0 rgba(0, 0, 0, 0.24);
+}
+.thumb-wrapper {
+  top: 5%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.chgrade-button {
+	float: right;
+}
+
+.chuserinfo-button {
+	display: inline;
+    position: absolute;
+    left: -270%;
+    top: 103%;
+}
+
+.secessionuser-button {
+	top: 103%;
+    display: inline;
+    left: -172%;
+    position: absolute;
+}
+
+.change-submit {
+	position: relative;
+	top: 5px;
+	left: 34%	
+}
+
+.cancel {
+	position: relative;
+	top: 5px;
+	left: 34.5%;
+}
+
+.cha {
+	font-size: 15px;
+}

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* 아이디찾기 , 비밀번호찾기 */
+div#idfind{
+	width: 70%;
+	padding: 20px;
+}
+#idfind input[type=text],#idfind input[type=submit]{
+	margin:20px;
+	padding:10px;
+	border-radius: 10px;
+	width:30%;
+}
+#idfind select{
+	margin:20px;
+	padding:10px;
+	border-radius: 10px;
+	width:12%;
+}
+#pwchange{
+	position:fixed;
+	background: #ffffff;
+	border: solid 1px gray;
+	top: 50%;
+	left: 50%;
+	width: 25%;
+	height: 30%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	z-index:30;
+	display:none;
+}
+/* 로그인 페이지 */
+#login{
+	width: 40%;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	resize: vertical;
+}
+#login form input[type=text],#login form input[type=password]{
+	width:30%;
+	padding:12px;
+	margin:15px;
+	border-radius: 10px;
+}
+#login form input[type=submit],#login form input[type=button]{
+	width:33%;
+	padding:12px;
+	margin:15px;
+	border-radius: 10px;
+	display:block;
+}
+#login a:link,#login a:visited {
+  color: black;
+}
+/* 회원가입*/
+#member{
+	width: 50%;
+	padding: 20px;
+	transform: translate(73%);
+}
+#member input {
+	width:39%;
+	padding:12px;
+	margin:15px;
+	border-radius: 10px;
+}
+#member input[type=submit]{
+	width:42%;
+	padding:12px;
+	margin:15px;
+	border-radius: 10px;
+}
+#member select{
+	width:17%;
+	padding:12px;
+	margin:15px;
+	border-radius: 10px;
+}
+

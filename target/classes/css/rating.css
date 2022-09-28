@@ -1,0 +1,81 @@
+@charset "UTF-8";
+div#ratinginsert{
+	width: 50%;
+	height:590px;
+	padding:10px;
+	margin:20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	transform:translate(47%);
+}
+#ratinginsert input[type=text]{
+	width: 35%;
+	padding:10px;
+	margin:20px;
+	border-radius: 10px;
+	margin-left:10%;
+}
+#ratinginsert input[type=number]{
+	width: 35%;
+	padding:10px;
+	margin:20px;
+	border-radius: 10px;
+}
+#ratinginsert textarea{
+	margin-left:10%;
+	width:79%;
+	height:400px;
+	resize:none
+}
+#ratinginsert input[type=submit]{
+	width: 80%;
+	padding:10px;
+	margin:20px;
+	border-radius: 10px;
+	margin-left:10%;
+}
+#ratinglist{
+	width: 50%;
+	height:auto;
+	padding:10px;
+	margin:20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	transform:translate(47%);
+}
+#ratinglist table{
+	width:90%;
+	height:auto;
+	border-collapse: collapse;
+	text-align: center;
+	color: #333;
+	margin-left:5%;
+}
+#ratinglist tr{
+	height:80px;
+}
+#ratinglist button{
+	float:right;
+	height:100%;
+}
+th{
+  padding: 10px;
+  font-weight: bold;
+  color: #369;
+  border-bottom: 3px solid #036;
+}
+/*
+tr:hover, tr:hover {
+  background: lightgray;
+}
+
+table th:hover{
+  background: lightgray;
+}
+*/
+
+table td {
+  width: 350px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
